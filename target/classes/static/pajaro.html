@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Pájaro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Pájaro</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Existen más de 10,000 especies de aves en todo el mundo.</li>
+            <li>Los colibríes son las únicas aves que pueden volar hacia atrás.</li>
+            <li>Las aves tienen huesos huecos que les ayudan a volar.</li>
+            <li>La mayoría de las aves pueden ver en color.</li>
+            <li>Las aves migratorias pueden viajar miles de kilómetros.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Pájaro</h2>
+        <p>Las aves son un grupo de animales fascinantes y diversos que se caracterizan por su capacidad para volar. Con más de 10,000 especies diferentes, los pájaros se encuentran en casi todos los ecosistemas del planeta. Desde los pequeños y coloridos colibríes hasta los majestuosos águilas, las aves presentan una increíble variedad de formas, tamaños y colores.</p>
+        <p>La mayoría de las aves tienen plumas, que son esenciales para el vuelo. Las plumas también ayudan a regular la temperatura corporal y sirven como protección contra las inclemencias del tiempo. Además, las aves tienen un esqueleto ligero y huesos huecos, lo que les facilita el vuelo.</p>
+        <p>Las aves son conocidas por su capacidad de migrar largas distancias en busca de climas más cálidos y fuentes de alimento. Durante la migración, algunas especies recorren miles de kilómetros y utilizan diversos métodos de navegación, como el sol, las estrellas y el campo magnético de la Tierra.</p>
+        <p>Los pájaros son también comunicadores hábiles. Utilizan canciones y llamadas para atraer a parejas, marcar territorio y comunicarse con otros miembros de su grupo. Cada especie tiene su propio repertorio de sonidos, y algunos pájaros son capaces de imitar los sonidos de otros animales o incluso de los humanos.</p>
+        <img src="pajaro.jpg" alt="Pájaro" />
+        <h3>Escucha el sonido del pájaro</h3>
+        <audio controls>
+            <source src="pajaro.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre pájaros</h3>
+        <iframe width="560" height="315" src="pajaro.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Perro</title>
+    <style>
+                body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Perro</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los perros son conocidos como los mejores amigos del hombre.</li>
+            <li>Existen más de 340 razas de perros en todo el mundo.</li>
+            <li>Los perros tienen un sentido del olfato extremadamente agudo.</li>
+            <li>Pueden detectar enfermedades en humanos a través del olfato.</li>
+            <li>Los perros pueden ser entrenados para realizar una variedad de tareas.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Perro</h2>
+        <p>Los perros son animales de compañía leales y cariñosos que han estado junto a los seres humanos durante miles de años. Su domesticación comenzó hace más de 15,000 años, cuando los humanos comenzaron a criar lobos para aprovechar sus habilidades de caza y vigilancia. A lo largo del tiempo, los perros han evolucionado y se han adaptado a diversas tareas, desde la caza y el pastoreo hasta el trabajo en la policía y como perros de servicio.</p>
+        <p>Los perros vienen en una amplia variedad de razas, cada una con características físicas y temperamentos únicos. Desde los pequeños y juguetones Chihuahuas hasta los majestuosos y fuertes Gran Daneses, hay un perro para cada tipo de dueño y hogar. Además, los perros son altamente sociales y forman fuertes lazos con sus familias humanas, lo que los convierte en compañeros ideales.</p>
+        <p>Los perros no solo son compañeros leales, sino que también son extremadamente inteligentes. Pueden aprender comandos, trucos y tareas complejas. Se ha demostrado que algunos perros tienen la capacidad de entender hasta 165 palabras y señales. Su capacidad para aprender y adaptarse hace que sean excelentes mascotas y compañeros de trabajo.</p>
+        <p>Además, los perros son conocidos por su sentido del olfato, que es entre 10,000 y 100,000 veces más agudo que el de los humanos. Esto les permite detectar olores y aromas que nosotros no podemos percibir, lo que los hace indispensables en labores de búsqueda y rescate, así como en la detección de drogas y explosivos.</p>
+        <p>El comportamiento de los perros varía según su raza y entrenamiento, pero en general, son animales juguetones, curiosos y llenos de energía. Necesitan ejercicio regular, interacción social y estimulación mental para ser felices y saludables.</p>
+        <img src="perro.jpg" alt="Perro" />
+        <h3>Escucha el sonido del perro</h3>
+        <audio controls>
+            <source src="perro.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre perros</h3>
+        <iframe width="560" height="315" src="perro.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

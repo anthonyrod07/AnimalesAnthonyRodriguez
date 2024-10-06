@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Tigre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Tigre</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los tigres son los felinos más grandes del mundo.</li>
+            <li>Tienen un patrón de rayas único, similar a las huellas dactilares en los humanos.</li>
+            <li>Los tigres pueden nadar muy bien y a menudo lo hacen para cazar.</li>
+            <li>Son animales solitarios y marcan su territorio con olor.</li>
+            <li>Pueden correr hasta 65 km/h en distancias cortas.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Tigre</h2>
+        <p>Los tigres son grandes felinos conocidos por su fuerza y belleza. Son los más grandes de la familia de los felinos y se encuentran principalmente en Asia. Con su icónica pelaje anaranjado y rayas negras, los tigres son cazadores hábiles y se adaptan a diversos hábitats, desde selvas densas hasta pastizales abiertos.</p>
+        <p>Estos animales son solitarios por naturaleza, prefiriendo cazar y vivir solos en su territorio. Utilizan su aguda visión y sentido del oído para cazar, siendo principalmente nocturnos. Su dieta consiste en una variedad de presas, incluidos ciervos, jabalíes y otros mamíferos de gran tamaño.</p>
+        <p>Los tigres son expertos nadadores y no temen al agua, a menudo utilizando ríos y estanques para refrescarse o perseguir a su presa. Sus patas poderosas y musculosas les permiten realizar saltos sorprendentes y moverse sigilosamente a través de su entorno.</p>
+        <p>A pesar de su impresionante tamaño y habilidades de caza, los tigres enfrentan amenazas significativas debido a la pérdida de hábitat y la caza furtiva. La conservación de estos majestuosos animales es crucial para mantener el equilibrio en sus ecosistemas.</p>
+        <img src="tigre.jpg" alt="Tigre" />
+        <h3>Escucha el sonido del tigre</h3>
+        <audio controls>
+            <source src="tigre.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre tigres</h3>
+        <iframe width="560" height="315" src="tigre.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+

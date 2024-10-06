@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Caballo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Caballo</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los caballos pueden dormir de pie gracias a un mecanismo especial en sus patas.</li>
+            <li>Pueden reconocer hasta 100 caras humanas diferentes.</li>
+            <li>Los caballos tienen un rango de visión de casi 360 grados.</li>
+            <li>Se comunican a través de vocalizaciones y lenguaje corporal.</li>
+            <li>La cría de un caballo se llama potrillo.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Caballo</h2>
+        <p>Los caballos son animales majestuosos que han sido compañeros del ser humano durante miles de años. Su velocidad, fuerza y belleza los han convertido en un símbolo de libertad y nobleza. Existen más de 300 razas de caballos, cada una con características únicas que los hacen adecuados para diversas actividades, desde la equitación hasta el trabajo agrícola.</p>
+        <p>Los caballos son herbívoros y se alimentan principalmente de pasto, heno y granos. Su sistema digestivo está diseñado para procesar grandes cantidades de fibra, lo que les permite mantener su energía y salud. Además, tienen un sentido del olfato y del oído altamente desarrollados, lo que les ayuda a detectar peligros en su entorno.</p>
+        <p>Son animales sociales que viven en grupos, conocidos como manadas. Se comunican entre sí a través de vocalizaciones y lenguaje corporal, y desarrollan vínculos estrechos con otros caballos y con los humanos. Su capacidad para formar relaciones y su inteligencia hacen que sean compañeros leales y confiables.</p>
+        <p>En la actualidad, los caballos se utilizan en una variedad de actividades, desde deportes y entretenimiento hasta terapia y trabajo agrícola. Su presencia en la cultura humana es profunda y variada, siendo símbolos de fuerza, belleza y amistad.</p>
+        <img src="caballo.jpg" alt="Caballo" />
+        <h3>Escucha el sonido del caballo</h3>
+        <audio controls>
+            <source src="caballo.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre caballos</h3>
+        <iframe width="560" height="315" src="caballo.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

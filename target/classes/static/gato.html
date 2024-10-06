@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Gato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Gato</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los gatos pueden hacer saltos hasta seis veces la longitud de su cuerpo.</li>
+            <li>Los gatos tienen un órgano especial que les permite saborear olores.</li>
+            <li>Se dice que un gato puede hacer más de 100 sonidos diferentes.</li>
+            <li>Los gatos duermen entre 12 y 16 horas al día.</li>
+            <li>Los gatos son capaces de girar sus orejas 180 grados.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Gato</h2>
+        <p>Los gatos son animales fascinantes que han sido compañeros de los humanos durante miles de años. Originalmente domesticados en el antiguo Egipto, estos felinos son conocidos por su gracia y agilidad. Los gatos tienen un instinto cazador muy desarrollado, lo que los convierte en excelentes cazadores de ratones y otros pequeños animales. Su comportamiento es muy variado, y aunque son conocidos por su independencia, también pueden ser muy cariñosos y afectuosos con sus dueños.</p>
+        <p>Existen muchas razas de gatos, cada una con características únicas. Desde el elegante Siamés hasta el robusto Maine Coon, hay un gato para cada amante de los felinos. Su pelaje puede variar en color, longitud y textura, y muchos gatos tienen patrones únicos que los hacen aún más especiales.</p>
+        <p>Los gatos también son muy curiosos y les encanta explorar su entorno. Les gusta jugar con objetos que pueden atrapar, como pelotas o ratones de juguete. Además, son expertos en escalar y pueden saltar a lugares altos con facilidad.</p>
+        <p>A medida que el mundo avanza, también lo hacen los gatos. Cada vez más, se les reconoce como parte integral de la familia, y se les brinda un hogar cálido y seguro. Muchos gatos también se benefician de una dieta equilibrada y atención veterinaria regular, lo que ayuda a asegurar que vivan vidas largas y saludables.</p>
+        <p>En resumen, los gatos son criaturas maravillosas que aportan alegría y compañía a millones de hogares alrededor del mundo. Si estás considerando adoptar un gato, asegúrate de informarte bien sobre su cuidado y necesidades. ¡Tu nuevo amigo felino te lo agradecerá!</p>
+
+        <img src="/gato.jpg" alt="Gato" />
+
+        <h3>Escucha el sonido del gato</h3>
+        <audio controls>
+            <source src="/gato.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+
+        <h3>Mira un video sobre gatos</h3>
+        <iframe width="560" height="315" src="gato.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

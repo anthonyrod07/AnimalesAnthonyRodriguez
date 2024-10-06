@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Elefante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Elefante</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los elefantes son los animales terrestres más grandes.</li>
+            <li>Pueden vivir hasta 70 años o más.</li>
+            <li>Tienen un excelente sentido del olfato.</li>
+            <li>Se comunican a través de sonidos de baja frecuencia.</li>
+            <li>Los elefantes tienen una memoria excepcional.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Elefante</h2>
+        <p>Los elefantes son mamíferos de gran tamaño, conocidos por su inteligencia y sus fuertes lazos sociales. Se encuentran en Asia y África, y son fácilmente reconocibles por sus grandes orejas, trompa y colmillos. Su trompa es un órgano multifuncional que utilizan para alimentarse, beber, y comunicarse.</p>
+        <p>Los elefantes viven en manadas, que son generalmente lideradas por una hembra mayor. Tienen un fuerte sentido de la comunidad y se cuidan mutuamente. La crianza de los jóvenes es un esfuerzo grupal, y las crías son alimentadas y protegidas por toda la manada.</p>
+        <p>Estos animales son herbívoros y pasan gran parte de su día buscando alimento. Pueden consumir grandes cantidades de hierba, hojas, frutas y cortezas. Debido a su tamaño, los elefantes son considerados "ingenieros del ecosistema", ya que sus hábitos alimenticios ayudan a mantener el equilibrio en sus hábitats.</p>
+        <p>Los elefantes también son conocidos por su increíble memoria. Pueden recordar lugares, otros elefantes y eventos importantes durante años. Esta memoria les ayuda a encontrar fuentes de agua y alimento, y a reconocer a miembros de su manada incluso después de largos períodos de separación.</p>
+        <img src="elefante.jpg" alt="Elefante" />
+        <h3>Escucha el sonido del elefante</h3>
+        <audio controls>
+            <source src="elefante.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre elefantes</h3>
+        <iframe width="560" height="315" src="elefante.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+

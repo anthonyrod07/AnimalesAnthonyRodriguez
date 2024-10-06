@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Pez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Pez</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los peces son animales acuáticos con branquias que respiran oxígeno del agua.</li>
+            <li>Existen más de 30,000 especies diferentes de peces.</li>
+            <li>Algunos peces pueden vivir en agua dulce, mientras que otros prefieren el agua salada.</li>
+            <li>Los peces utilizan sus aletas para nadar y mantener el equilibrio.</li>
+            <li>Algunos peces, como los salmones, migran a lugares específicos para reproducirse.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Pez</h2>
+        <p>Los peces son un grupo diverso de animales acuáticos que se encuentran en océanos, ríos y lagos de todo el mundo. Con más de 30,000 especies diferentes, varían en tamaño, forma y color. Su adaptación a la vida acuática les permite sobrevivir en una variedad de hábitats, desde los profundos océanos hasta las aguas dulces de los ríos.</p>
+        <p>Los peces tienen un cuerpo hidrodinámico que les permite nadar con facilidad. Utilizan sus aletas para moverse y cambiar de dirección, mientras que las branquias les permiten extraer oxígeno del agua. A medida que el agua pasa a través de las branquias, los peces pueden respirar y mantenerse activos.</p>
+        <p>Algunas especies de peces son migratorias, viajando grandes distancias para reproducirse o encontrar alimento. Por ejemplo, los salmones nacen en agua dulce, pero migran al océano antes de regresar a su lugar de nacimiento para reproducirse. Este ciclo de vida es fundamental para la supervivencia de muchas especies.</p>
+        <p>Los peces también son una fuente vital de alimento para los humanos y otros animales. Su diversidad no solo enriquece los ecosistemas acuáticos, sino que también contribuye a la cultura y la economía de las comunidades que dependen de la pesca.</p>
+        <img src="pez.jpg" alt="Pez" />
+        <h3>Escucha el sonido del pez</h3>
+        <audio controls>
+            <source src="pez.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre peces</h3>
+        <iframe width="560" height="315" src="pez.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

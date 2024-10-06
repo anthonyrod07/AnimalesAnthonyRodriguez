@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Conejo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el footer esté al final */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            margin-top: auto; /* Asegura que el footer se quede al final */
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+            flex: 1; /* Permite que el contenedor crezca */
+        }
+        aside {
+            flex: 1; /* Lateral */
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 2; /* Principal */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite desplazamiento si es necesario */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 200px; /* Limita el ancho de la imagen */
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perfil del Conejo</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="gato.html">Gato</a>
+    <a href="perro.html">Perro</a>
+    <a href="elefante.html">Elefante</a>
+    <a href="pajaro.html">Pájaro</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="pez.html">Pez</a>
+    <a href="caballo.html">Caballo</a>
+    <a href="conejo.html">Conejo</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Datos Interesantes</h3>
+        <ul>
+            <li>Los conejos pueden girar sus orejas hasta 270 grados.</li>
+            <li>Tienen dientes que nunca dejan de crecer.</li>
+            <li>Los conejos son animales muy sociales y viven en grupos.</li>
+            <li>Un conejo puede saltar hasta tres veces la longitud de su cuerpo.</li>
+            <li>Existen más de 60 especies diferentes de conejos.</li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Descripción del Conejo</h2>
+        <p>Los conejos son mamíferos pequeños y peludos que pertenecen a la familia de los lepóridos. Son conocidos por sus largas orejas, dientes afilados y patas traseras poderosas. Los conejos son herbívoros y se alimentan principalmente de hierbas, verduras y heno.</p>
+        <p>Estos animales son muy sociales y a menudo viven en grupos. Se comunican entre sí a través de vocalizaciones y lenguaje corporal. Son animales activos y curiosos que disfrutan explorando su entorno y jugando.</p>
+        <p>Los conejos son conocidos por su capacidad de saltar. Pueden saltar hasta tres veces la longitud de su cuerpo, lo que les ayuda a escapar de los depredadores. Sus orejas largas les permiten detectar sonidos a grandes distancias, lo que les ayuda a mantenerse alertas ante posibles peligros.</p>
+        <p>Además de ser populares como mascotas, los conejos también son criados en granjas para su carne y piel. La diversidad de especies y colores hace que los conejos sean animales adorables y fascinantes.</p>
+        <img src="conejo.jpg" alt="Conejo" />
+        <h3>Escucha el sonido del conejo</h3>
+        <audio controls>
+            <source src="conejo.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+        <h3>Mira un video sobre conejos</h3>
+        <iframe width="560" height="315" src="conejo.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Galería de Animales. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
